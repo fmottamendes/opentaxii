@@ -1,4 +1,4 @@
-# Installing Opentaxii Server in Docker Container
+## Installing Opentaxii Server in Docker Container
 ```
 apt-get update
 apt-get -y install python3 python3-pip curl git default-libmysqlclient-dev
