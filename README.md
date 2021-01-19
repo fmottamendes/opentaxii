@@ -161,6 +161,12 @@ accounts:
 EOF
 ```
 ```
+create database taxiiauth;
+create database taxiipersist;
+grant all on taxiiauth.* to 'taxii'@'%' identified by 'some_password';
+grant all on taxiipersist.* to 'taxii'@'%' identified by 'some_password';
+```
+```
 git clone --recursive https://github.com/MISP/MISP-Taxii-Server.git
 git clone --recursive https://github.com/FloatingGhost/MISP-Taxii-Server
 cd MISP-Taxii-Server/
